@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/exportOptionsTitle" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/exportTracksKey"
+            android:summary="@string/exportTrackSummary"
+            android:title="@string/exportTracksTitle" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="exportTracks"
+            android:entries="@array/export_fileformat_array"
+            android:entryValues="@array/export_fileformat_array"
+            android:key="@string/trackExportFormatkey"
+            android:summary="@string/trackExportFormatSummary"
+            android:title="@string/trackExportFormatTitle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/serverOptionsTitle" >
+        <EditTextPreference
+            android:key="@string/serverAddressKey"
+            android:summary="@string/serverAddressSummary"
+            android:title="@string/serverAddressTitle" />
+        <EditTextPreference
+            android:key="@string/serverPortKey"
+            android:summary="@string/serverPortSummary"
+            android:title="@string/serverPortTitle"
+            android:defaultValue="6789" 
+            android:inputType="number"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

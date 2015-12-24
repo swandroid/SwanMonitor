@@ -1,0 +1,4 @@
+<h3>Swan Monitor</h3>
+Version 0.1 (beta)<br>
+Copyright 2013<br>
+<b>https://github.com/interdroid</b><br><br>

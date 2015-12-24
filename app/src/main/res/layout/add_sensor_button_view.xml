@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ImageView 
+   		android:id="@+id/sensorIcon_imageView"
+   		android:src="@drawable/add_icon"
+   		android:layout_width="100dp"
+   		android:layout_height="100dp"
+		android:paddingRight="1dp"
+		android:paddingTop="1dp"
+		android:paddingBottom="1dp"
+		android:paddingLeft="1dp" />
+	<TextView android:id="@+id/sensorName_textView"
+		android:textSize="14sp" 
+		android:textStyle="bold" 
+		android:textColor="#0000FF"
+		android:text="Add Sensor" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/sensorIcon_imageView"/>
+	<TextView android:id="@+id/expression_textView"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="Click this item to add a new sensor to the list"
+		android:layout_below="@id/sensorName_textView"
+		android:layout_toRightOf="@id/sensorIcon_imageView" />
+</RelativeLayout>

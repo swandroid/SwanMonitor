@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SwanMonitor</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensorIcon">Sensor icon</string>
+    <string name="edit_context_string">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="sensorRemoved"> sensor removed</string>
+    <string name="exportDialogTitle">Choose export destination</string>
+    <string name="holdSensorToEdit">Hold the %1$s sensor to edit</string>
+    <string name="addSensorFirst">Please start by adding a sensor</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="startedRecording">Swan Monitor has started recording</string>
+    <string name="stoppedRecording">Swan Monitor has stopped recording</string>
+    <string name="recording">Now recording</string>
+    <string name="about">About this app</string>
+    <string name="noReading">Waiting for first data</string>
+    <string name="sensorSelection">Select Sensor</string>
+    <string name="newReadingFormatted">Data: %1$s </string>
+    <string name="exitApp">Are you sure you want to exit Swan Monitor?</string>
+    <string name="exitWhileRecording">\nThis will end the current recording.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exportTrackSummary">When location object is available export track to GPX or TCX</string>
+    <string name="exportTracksTitle">Export to TCX/GPX</string>
+    <string name="exportTracksKey">exportTracks</string>
+    <string name="trackExportFormatkey">trackExportFormat</string>
+    <string name="trackExportFormatSummary">Select the desired gps track output format</string>
+    <string name="trackExportFormatTitle">Export format</string>
+    <string name="exportOptionsTitle">Export Options</string>
+    <string name="serverOptionsTitle">Server options</string>
+    <string name="serverAddressKey">serverAddress</string>
+    <string name="serverAddressSummary">The (ip) address of the server</string>
+    <string name="serverAddressTitle">Server</string>
+    <string name="serverPortKey">serverPort</string>
+    <string name="serverPortSummary">The port to connect to on the server</string>
+    <string name="serverPortTitle">Server port</string>
+    <string name="TCXFileGenerated">TCX file is being generated</string>
+    <string name="GPXFileGenerated">GPX file is being generated</string>
+    <string name="TrackFileWillBeGenerated">Track file will be generated</string>
+    <string name="TrackFileWillNotBeGenerated">Track file generation disabled</string>
+    <string name="emptySensorList">No sensors registered.\nClick + button to start sensor registration.</string>
+
+</resources>

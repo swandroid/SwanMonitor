@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="export_options_array">
+        <item>Do not export</item>
+        <item>Export to file only</item>
+        <item>Export to server only</item>
+        <item>Export to file and server</item>
+    </string-array>
+        <string-array name="export_fileformat_array">
+        <item>TCX</item>
+        <item>GPX</item>
+    </string-array>
+
+</resources>

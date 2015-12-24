@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/context_export_options"
+        android:title="Export"/>
+    <item
+        android:id="@+id/context_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="@string/remove"/>
+    <item
+        android:id="@+id/context_edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="@string/edit_context_string"/>
+
+</menu>

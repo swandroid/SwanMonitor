@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/start_exporting"
+        android:icon="@drawable/rec_icon"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Start exporting"/>
+    <item
+        android:id="@+id/add_sensor"
+        android:icon="@drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Add"/>
+    <item
+        android:id="@+id/check_register"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Re-register"/>
+    <item
+        android:id="@+id/exports"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Show exports"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="About"/>
+
+</menu>

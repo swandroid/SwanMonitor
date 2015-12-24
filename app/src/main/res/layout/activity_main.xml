@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/trackExport_TV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="GPS Sensor Active, GPX/TCX track file will be exported"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@color/light_gray"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listV_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/trackExport_TV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <ViewStub
+        android:id="@+id/sensor_root_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/listV_main"
+        android:layout="@layout/emptysensorlist"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/file_root_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sensor_root_empty"
+        android:layout="@layout/emptyfilelist"
+        android:visibility="gone" />
+
+</RelativeLayout>

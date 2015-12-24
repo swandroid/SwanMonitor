@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/sensorIcon_imageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:contentDescription="@string/sensorIcon"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/sensorName_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/sensorIcon_imageView"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/expression_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensorName_textView"
+        android:layout_toRightOf="@id/sensorIcon_imageView"
+        android:textColor="@color/gray1"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/onReading_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expression_textView"
+        android:layout_toRightOf="@id/sensorIcon_imageView"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/export_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onReading_textView"
+        android:layout_toRightOf="@id/sensorIcon_imageView"
+        android:text="Export to: "
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/export_file_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onReading_textView"
+        android:layout_toRightOf="@id/export_textView"
+        android:text="file "
+        android:textColor="@color/dark_green"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/export_server_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onReading_textView"
+        android:layout_toRightOf="@id/export_file_textView"
+        android:text="server"
+        android:textColor="@color/light_gray"
+        android:textIsSelectable="false"
+        android:textSize="12sp" />
+
+</RelativeLayout>
