@@ -860,8 +860,10 @@ public class MainActivity extends Activity {
 		String valuePath = SensorTools.parseExpression(sensor.getExpression())[1];
 		for (int i = 0; i < valuePaths.size(); i++) {
 			if (valuePath.equals(valuePaths.get(i).toString())) {
-				unit = sensor.getUnits().get(i);
-				break;
+				if(sensor.getUnits().size() > i) {
+					unit = sensor.getUnits().get(i);
+					break;
+				}
 			}
 		}
 
