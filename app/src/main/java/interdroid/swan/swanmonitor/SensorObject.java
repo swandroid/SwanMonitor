@@ -1,6 +1,6 @@
 package interdroid.swan.swanmonitor;
 
-import interdroid.swan.swansong.TimestampedValue;
+import interdroid.swancore.swansong.TimestampedValue;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
 package interdroid.swan.swanmonitor;
 
-import interdroid.swan.SensorInfo;
+import interdroid.swancore.swanmain.SensorInfo;
 
 import java.util.List;
 

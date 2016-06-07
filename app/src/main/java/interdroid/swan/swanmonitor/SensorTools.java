@@ -1,9 +1,9 @@
 package interdroid.swan.swanmonitor;
 
 import android.util.Log;
-import interdroid.swan.swansong.ExpressionFactory;
-import interdroid.swan.swansong.ExpressionParseException;
-import interdroid.swan.swansong.SensorValueExpression;
+import interdroid.swancore.swansong.ExpressionFactory;
+import interdroid.swancore.swansong.ExpressionParseException;
+import interdroid.swancore.swansong.SensorValueExpression;
 
 public class SensorTools {
 	
